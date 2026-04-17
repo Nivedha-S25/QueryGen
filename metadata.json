@@ -1,0 +1,6 @@
+{
+  "name": "QueryGen",
+  "description": "A professional NLP application that allows users to query an SQL database using natural language.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

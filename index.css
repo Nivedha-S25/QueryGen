@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sleek-bg: #f0f2f6;
+  --color-sleek-sidebar: #ffffff;
+  --color-sleek-primary: #0068c9;
+  --color-sleek-text: #262730;
+  --color-sleek-muted: #5f6368;
+  --color-sleek-border: #e6e9ef;
+  --color-sleek-code: #1e1e1e;
+  
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-sleek-bg text-sleek-text font-sans;
+  }
+}
